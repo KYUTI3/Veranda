@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AAED2D2B6478AA00FE30BA /* VerandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAED2C2B6478AA00FE30BA /* VerandaApp.swift */; };
+		43AAED2F2B6478AA00FE30BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAED2E2B6478AA00FE30BA /* ContentView.swift */; };
+		43AAED312B6478AD00FE30BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AAED302B6478AD00FE30BA /* Assets.xcassets */; };
+		43AAED352B6478AE00FE30BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AAED342B6478AE00FE30BA /* Preview Assets.xcassets */; };
+		43AAED3F2B6478AE00FE30BA /* VerandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAED3E2B6478AE00FE30BA /* VerandaTests.swift */; };
+		43AAED492B6478AE00FE30BA /* VerandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAED482B6478AE00FE30BA /* VerandaUITests.swift */; };
+		43AAED4B2B6478AE00FE30BA /* VerandaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AAED4A2B6478AE00FE30BA /* VerandaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43AAED3B2B6478AE00FE30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AAED212B6478AA00FE30BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AAED282B6478AA00FE30BA;
+			remoteInfo = Veranda;
+		};
+		43AAED452B6478AE00FE30BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AAED212B6478AA00FE30BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AAED282B6478AA00FE30BA;
+			remoteInfo = Veranda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43AAED292B6478AA00FE30BA /* Veranda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veranda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AAED2C2B6478AA00FE30BA /* VerandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerandaApp.swift; sourceTree = "<group>"; };
+		43AAED2E2B6478AA00FE30BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		43AAED302B6478AD00FE30BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AAED322B6478AE00FE30BA /* Veranda.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Veranda.entitlements; sourceTree = "<group>"; };
+		43AAED342B6478AE00FE30BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43AAED3A2B6478AE00FE30BA /* VerandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AAED3E2B6478AE00FE30BA /* VerandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerandaTests.swift; sourceTree = "<group>"; };
+		43AAED442B6478AE00FE30BA /* VerandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AAED482B6478AE00FE30BA /* VerandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerandaUITests.swift; sourceTree = "<group>"; };
+		43AAED4A2B6478AE00FE30BA /* VerandaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerandaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AAED262B6478AA00FE30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED372B6478AE00FE30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED412B6478AE00FE30BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AAED202B6478AA00FE30BA = {
+			isa = PBXGroup;
+			children = (
+				43AAED2B2B6478AA00FE30BA /* Veranda */,
+				43AAED3D2B6478AE00FE30BA /* VerandaTests */,
+				43AAED472B6478AE00FE30BA /* VerandaUITests */,
+				43AAED2A2B6478AA00FE30BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AAED2A2B6478AA00FE30BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AAED292B6478AA00FE30BA /* Veranda.app */,
+				43AAED3A2B6478AE00FE30BA /* VerandaTests.xctest */,
+				43AAED442B6478AE00FE30BA /* VerandaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AAED2B2B6478AA00FE30BA /* Veranda */ = {
+			isa = PBXGroup;
+			children = (
+				43AAED2C2B6478AA00FE30BA /* VerandaApp.swift */,
+				43AAED2E2B6478AA00FE30BA /* ContentView.swift */,
+				43AAED302B6478AD00FE30BA /* Assets.xcassets */,
+				43AAED322B6478AE00FE30BA /* Veranda.entitlements */,
+				43AAED332B6478AE00FE30BA /* Preview Content */,
+			);
+			path = Veranda;
+			sourceTree = "<group>";
+		};
+		43AAED332B6478AE00FE30BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43AAED342B6478AE00FE30BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43AAED3D2B6478AE00FE30BA /* VerandaTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AAED3E2B6478AE00FE30BA /* VerandaTests.swift */,
+			);
+			path = VerandaTests;
+			sourceTree = "<group>";
+		};
+		43AAED472B6478AE00FE30BA /* VerandaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43AAED482B6478AE00FE30BA /* VerandaUITests.swift */,
+				43AAED4A2B6478AE00FE30BA /* VerandaUITestsLaunchTests.swift */,
+			);
+			path = VerandaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AAED282B6478AA00FE30BA /* Veranda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AAED4E2B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "Veranda" */;
+			buildPhases = (
+				43AAED252B6478AA00FE30BA /* Sources */,
+				43AAED262B6478AA00FE30BA /* Frameworks */,
+				43AAED272B6478AA00FE30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veranda;
+			productName = Veranda;
+			productReference = 43AAED292B6478AA00FE30BA /* Veranda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43AAED392B6478AE00FE30BA /* VerandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AAED512B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "VerandaTests" */;
+			buildPhases = (
+				43AAED362B6478AE00FE30BA /* Sources */,
+				43AAED372B6478AE00FE30BA /* Frameworks */,
+				43AAED382B6478AE00FE30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AAED3C2B6478AE00FE30BA /* PBXTargetDependency */,
+			);
+			name = VerandaTests;
+			productName = VerandaTests;
+			productReference = 43AAED3A2B6478AE00FE30BA /* VerandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43AAED432B6478AE00FE30BA /* VerandaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AAED542B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "VerandaUITests" */;
+			buildPhases = (
+				43AAED402B6478AE00FE30BA /* Sources */,
+				43AAED412B6478AE00FE30BA /* Frameworks */,
+				43AAED422B6478AE00FE30BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AAED462B6478AE00FE30BA /* PBXTargetDependency */,
+			);
+			name = VerandaUITests;
+			productName = VerandaUITests;
+			productReference = 43AAED442B6478AE00FE30BA /* VerandaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AAED212B6478AA00FE30BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					43AAED282B6478AA00FE30BA = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					43AAED392B6478AE00FE30BA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43AAED282B6478AA00FE30BA;
+					};
+					43AAED432B6478AE00FE30BA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 43AAED282B6478AA00FE30BA;
+					};
+				};
+			};
+			buildConfigurationList = 43AAED242B6478AA00FE30BA /* Build configuration list for PBXProject "Veranda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AAED202B6478AA00FE30BA;
+			productRefGroup = 43AAED2A2B6478AA00FE30BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AAED282B6478AA00FE30BA /* Veranda */,
+				43AAED392B6478AE00FE30BA /* VerandaTests */,
+				43AAED432B6478AE00FE30BA /* VerandaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AAED272B6478AA00FE30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AAED352B6478AE00FE30BA /* Preview Assets.xcassets in Resources */,
+				43AAED312B6478AD00FE30BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED382B6478AE00FE30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED422B6478AE00FE30BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AAED252B6478AA00FE30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AAED2F2B6478AA00FE30BA /* ContentView.swift in Sources */,
+				43AAED2D2B6478AA00FE30BA /* VerandaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED362B6478AE00FE30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AAED3F2B6478AE00FE30BA /* VerandaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AAED402B6478AE00FE30BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AAED4B2B6478AE00FE30BA /* VerandaUITestsLaunchTests.swift in Sources */,
+				43AAED492B6478AE00FE30BA /* VerandaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43AAED3C2B6478AE00FE30BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AAED282B6478AA00FE30BA /* Veranda */;
+			targetProxy = 43AAED3B2B6478AE00FE30BA /* PBXContainerItemProxy */;
+		};
+		43AAED462B6478AE00FE30BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AAED282B6478AA00FE30BA /* Veranda */;
+			targetProxy = 43AAED452B6478AE00FE30BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43AAED4C2B6478AE00FE30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43AAED4D2B6478AE00FE30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		43AAED4F2B6478AE00FE30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Veranda/Veranda.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veranda/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Veranda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43AAED502B6478AE00FE30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Veranda/Veranda.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Veranda/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.Veranda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43AAED522B6478AE00FE30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.VerandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veranda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veranda";
+			};
+			name = Debug;
+		};
+		43AAED532B6478AE00FE30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.VerandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veranda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Veranda";
+			};
+			name = Release;
+		};
+		43AAED552B6478AE00FE30BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.VerandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veranda;
+			};
+			name = Debug;
+		};
+		43AAED562B6478AE00FE30BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "N-A.VerandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veranda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AAED242B6478AA00FE30BA /* Build configuration list for PBXProject "Veranda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AAED4C2B6478AE00FE30BA /* Debug */,
+				43AAED4D2B6478AE00FE30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AAED4E2B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "Veranda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AAED4F2B6478AE00FE30BA /* Debug */,
+				43AAED502B6478AE00FE30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AAED512B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "VerandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AAED522B6478AE00FE30BA /* Debug */,
+				43AAED532B6478AE00FE30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AAED542B6478AE00FE30BA /* Build configuration list for PBXNativeTarget "VerandaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AAED552B6478AE00FE30BA /* Debug */,
+				43AAED562B6478AE00FE30BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43AAED212B6478AA00FE30BA /* Project object */;
+}
