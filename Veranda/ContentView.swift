@@ -16,20 +16,28 @@ struct ContentView: View {
             Text("Veranda")
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             Text("Motto here!")
-            .font(.caption)
+                .font(.caption)
             Divider()
             Button(action: {
                 print("this should print something")
             })
             {
                 Text("Sign Up")
-                .padding()
-                .buttonStyle(.borderedProminent)
+                    .padding()
+                    .buttonStyle(.borderedProminent)
             }
+            Button(action: {
+                print("this should print something")
+            })
+            {
+                Text("Login")
+                    .padding()
+                    .buttonStyle(.borderedProminent)
+            }
+            .padding()
         }
-        .padding()
     }
-}
-#Preview {
-    ContentView()
+    #Preview {
+        ContentView()
+    }
 }
