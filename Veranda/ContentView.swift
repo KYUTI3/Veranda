@@ -1,4 +1,3 @@
-//
 //  ContentView.swift
 //  Veranda
 //
@@ -9,27 +8,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 20){
+        VStack(spacing: 20) {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Veranda")
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .fontWeight(.bold)
             Text("Motto here!")
                 .font(.caption)
             Divider()
             Button(action: {
                 print("this should print something")
-            })
-            {
+            }) {
                 Text("Sign Up")
                     .padding()
                     .buttonStyle(.borderedProminent)
             }
             Button(action: {
                 print("this should print something")
-            })
-            {
+            }) {
                 Text("Login")
                     .padding()
                     .buttonStyle(.borderedProminent)
@@ -37,7 +34,15 @@ struct ContentView: View {
             .padding()
         }
     }
-    #Preview {
+}
+
+#if DEBUG
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
         ContentView()
+            .previewLayout(.sizeThatFits)
+            .padding()
     }
 }
+#endif
+
